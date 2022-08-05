@@ -5,7 +5,7 @@
 <br>
 
 ## What does this project do?
- This tool converts the pages of any given pdf file into images. All the corresponding pages are then put together in one file, which gets saved in a separate file.
+ This tool converts the pages of any given pdf file into images. All the corresponding pages are then put together in one file, which gets saved in a separate file. This program makes it harder for people to copy your work and get away with it. They can't copy text, they can only copy pictures.
 
 <br>
 
