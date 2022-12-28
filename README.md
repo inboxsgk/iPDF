@@ -28,7 +28,7 @@ To use this tool, you will need to have [Python3](https://www.python.org/) and t
 
 <br>
 
-## Your Contributions
+## Contributions
 All contributions are welcome. If you have an idea for a new feature or have found a bug, please open an issue or submit a pull request.
 
 <br>
