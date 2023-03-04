@@ -5,6 +5,8 @@ import File_handle
 import pypdfium2 as pdfium
 from PIL import Image
 import shutil
+from tkinter import Tk
+from tkinter.filedialog import askopenfilename
 
 pgs = 1
 
@@ -41,3 +43,12 @@ individual image versions of all the pages
 def clean():
     shutil.rmtree("images")
     File_handle.create_path("images")
+
+'''
+This function makes it easier for the user to choose the
+desired file using GUI
+'''
+def file_pick():
+    Tk().withdraw()
+    file_dat = askopenfilename()
+    return file_dat
