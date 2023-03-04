@@ -30,11 +30,11 @@ def file_to_img(file_path):
 '''
 This function merges all saved images into a new pdf file
 '''
-def imgs_to_file():
+def imgs_to_file(outfile="output.pdf"):
     global pgs
 
     load = lambda x: Image.open(r"images\page_"+str(x)+".jpg")
-    Image.open(r"images\page_0.jpg").save("output.pdf", save_all=True, append_images=[load(j) for j in range(1, pgs)])
+    Image.open(r"images\page_0.jpg").save(outfile, save_all=True, append_images=[load(j) for j in range(1, pgs)])
 
 '''
 This function is used to clear the folder containing the 
@@ -52,3 +52,4 @@ def file_pick():
     Tk().withdraw()
     file_dat = askopenfilename()
     return file_dat
+    
